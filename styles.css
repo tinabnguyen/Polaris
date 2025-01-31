@@ -444,3 +444,33 @@
         object-fit: contain;
     }
 }
+
+/* --------------------- About Us Page ------------------------ */
+
+.about__us__container {
+    max-width: 1100px;
+    justify-content: center;
+    color: #3b3b3b;
+    margin: 0 auto;
+}
+
+.about__us__content h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about__us__content p {
+    font-size: 18px;
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+
+.about__us__content img {
+    max-width: 1100px;
+}
+
+.about__us__content figure {
+    padding-bottom: 20px;
+}
