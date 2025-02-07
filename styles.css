@@ -770,3 +770,146 @@
         margin: 2px;
     }
 }
+
+.performances__page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 80px;
+    justify-content: center;
+}
+
+/* Upcoming Performances Styles */
+.upcoming__perf__container {
+    background: #FFEFD4;
+    border-radius: 10px;
+    color: #3b3b3b;
+}
+
+.section-title1 {
+    font-size: 2.5rem;
+    padding-top: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+.upcoming-performances {
+    margin-bottom: 20px;
+    padding: 40px 40px;
+    padding-top: 10px;
+}
+
+.event-title {
+    font-size: 1.8rem;
+    color: #3b3b3b;
+    margin-bottom: 10px;
+}
+
+.event-details {
+    color: #3b3b3b;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.event-details a {
+    color: #3B3B3B;
+}
+
+/* Previous Performances Styles */
+.section-title2 {
+    font-size: 4rem;
+    color: #3b3b3b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.performance-item {
+    margin-bottom: 40px;
+}
+
+.performance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.performance-title {
+    font-size: 2rem;
+    color: #3b3b3b;
+    margin: 0;
+}
+
+.performance-date {
+    color: #666;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.performance-description {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #3b3b3b;
+}
+
+.performance-image {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.performance-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .event-info {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .section-title1 {
+        font-size: 2.2rem;
+    }
+
+    .section-title2 {
+        font-size: 3.2rem;
+    }
+
+    .event-title,
+    .performance-title {
+        font-size: 1.5rem;
+    }
+
+    .performance-date {
+        font-size: 1rem;
+    }
+
+    .event-details,
+    .performance-description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .performances-page {
+        padding: 20px 15px;
+    }
+
+    .section-title {
+        font-size: 24px;
+        margin: 30px 0 20px;
+    }
+
+    .performance-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+}
