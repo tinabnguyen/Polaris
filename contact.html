@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polaris</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <img src="images/Polaris_Logo.png" alt="polaris logo" width="80px" height="80px">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/portfolio.html" class="navbar__links">Portfolio</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/contact.html" class="button">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end nav bar -->
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Contact Us</h2>
+            </div>
+            <div class="contact-description">
+                <p>If you have any inquiries for Polaris, please fill out this form!</p>
+            </div>
+
+            <input type="hidden" name="access_key" value="78d66ada-257b-4ca9-8896-596686c0a38e">
+
+            <input type="text" name="name" placeholder="Full Name" class="contact-inputs" required>
+            <input type="text" name="organization" placeholder="Organization" class="contact-inputs">
+            <input type="email" name="email" placeholder="Email Address" class="contact-inputs" required>
+            <textarea name="message" placeholder="Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>  
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
